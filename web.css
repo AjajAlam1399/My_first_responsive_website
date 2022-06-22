@@ -556,116 +556,122 @@ footer {
   #install-App {
     display: none;
   }
-}
-@media screen and (max-width: 882px) {
-  .feature-items {
-    width: 14rem;
-  }
-  .img-box {
-    width: 21rem;
-  }
-  .sm-banner {
-    width: 100%;
-  }
-  .Text-banner {
-    min-width: 29rem;
-  }
-  .nav-items {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    justify-content: flex-start;
-    top: 0;
-    right: 0;
-    width: 40%;
-    height: 100vh;
-    background-color: #bdc3c7;
-    padding: 75px 0 0 0;
-    transform: translateX(100%);
-  }
-  .sliding {
-    transform: translateX(0);
-  }
-  .toggle #div1 {
-    transform: rotate(-45deg) translate(-5px, 4px);
-  }
-  .toggle #div2 {
-    opacity: 0;
-  }
-  .toggle #div3 {
-    transform: rotate(45deg) translate(-7px, -7px);
-  }
-  #humberger-menu {
-    display: flex;
-  }
-  .nav-items li a {
-    font-size: 18px;
-    font-weight: 550;
-    color: #222;
-    transition: 0.3s ease;
-    position: relative;
-  }
-}
-@media screen and (max-width: 768px) {
-  html {
-    font-size: 40%;
-  }
-  #hero {
-    min-height: 70vh;
-    background: url("img/hero4.png") no-repeat;
-    background-size: cover;
-    background-position: top -30% right 30%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 0 0 8rem;
-    margin-bottom: 5rem;
-  }
-}
-@media screen and (max-width: 680px) {
-  .Text-banner {
-    min-width: 23rem;
-  }
   #sign-up-box input {
-    width: 60%;
+    width: 70%;
   }
   #sign-up-box button {
-    width: 40%;
+    width: 30%;
   }
-  .img-box {
-    width: 30rem;
+  @media screen and (max-width: 882px) {
+    .feature-items {
+      width: 14rem;
+    }
+    .img-box {
+      width: 21rem;
+    }
+    .sm-banner {
+      width: 100%;
+    }
+    .Text-banner {
+      min-width: 29rem;
+    }
+    .nav-items {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      position: fixed;
+      justify-content: flex-start;
+      top: 0;
+      right: 0;
+      width: 40%;
+      height: 100vh;
+      background-color: #bdc3c7;
+      padding: 75px 0 0 0;
+      transform: translateX(100%);
+    }
+    .sliding {
+      transform: translateX(0);
+    }
+    .toggle #div1 {
+      transform: rotate(-45deg) translate(-5px, 4px);
+    }
+    .toggle #div2 {
+      opacity: 0;
+    }
+    .toggle #div3 {
+      transform: rotate(45deg) translate(-7px, -7px);
+    }
+    #humberger-menu {
+      display: flex;
+    }
+    .nav-items li a {
+      font-size: 18px;
+      font-weight: 550;
+      color: #222;
+      transition: 0.3s ease;
+      position: relative;
+    }
   }
-  .feature-items {
-    width: 22rem;
+  @media screen and (max-width: 768px) {
+    html {
+      font-size: 40%;
+    }
+    #hero {
+      min-height: 70vh;
+      background: url("img/hero4.png") no-repeat;
+      background-size: cover;
+      background-position: top -30% right 30%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      flex-direction: column;
+      padding: 0 0 0 8rem;
+      margin-bottom: 5rem;
+    }
   }
-}
-@media screen and (max-width: 575px) {
-  html {
-    font-size: 35%;
+  @media screen and (max-width: 680px) {
+    .Text-banner {
+      min-width: 23rem;
+    }
+    #sign-up-box input {
+      width: 60%;
+    }
+    #sign-up-box button {
+      width: 40%;
+    }
+    .img-box {
+      width: 30rem;
+    }
+    .feature-items {
+      width: 22rem;
+    }
   }
-}
+  @media screen and (max-width: 575px) {
+    html {
+      font-size: 35%;
+    }
+  }
 
-@media screen and (max-width: 415px) {
-  .img-box {
-    width: 25rem;
+  @media screen and (max-width: 415px) {
+    .img-box {
+      width: 25rem;
+    }
+    #Text-banner {
+      display: none;
+    }
+    #news-letter {
+      display: none;
+    }
   }
-  #Text-banner {
-    display: none;
-  }
-  #news-letter {
-    display: none;
-  }
-}
-@media screen and (max-width: 360px) {
-  .img-box {
-    width: 20rem;
-  }
-  #Text-banner {
-    display: none;
-  }
-  #news-letter {
-    display: none;
+  @media screen and (max-width: 360px) {
+    .img-box {
+      width: 20rem;
+    }
+    #Text-banner {
+      display: none;
+    }
+    #news-letter {
+      display: none;
+    }
   }
 }
